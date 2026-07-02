@@ -1,0 +1,34 @@
+{
+  "application": {
+    "name": "FPS Gaming Tweaker",
+    "version": "1.0.0",
+    "description": "Safe, transparent, and reversible Windows FPS optimization",
+    "author": "Optimization Team",
+    "license": "MIT"
+  },
+  "ui": {
+    "theme": "DARK",
+    "window_width": 900,
+    "window_height": 700,
+    "resizable": true
+  },
+  "optimizations": {
+    "auto_backup": true,
+    "require_confirmation_high_risk": true,
+    "log_all_changes": true,
+    "enable_rollback": true
+  },
+  "safety": {
+    "never_modify": [
+      "antivirus",
+      "windows_defender",
+      "windows_security",
+      "smartscreen",
+      "secure_boot",
+      "tpm",
+      "windows_update"
+    ],
+    "require_admin": true,
+    "verify_before_apply": true
+  }
+}

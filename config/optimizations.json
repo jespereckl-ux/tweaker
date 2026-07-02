@@ -1,0 +1,100 @@
+{
+  "optimizations": [
+    {
+      "id": "game_mode",
+      "name": "Windows Game Mode",
+      "category": "Windows Performance",
+      "description": "Enable Game Mode for optimized gaming experience",
+      "explanation": "Game Mode prioritizes gaming process resources and reduces background interruptions",
+      "risk_level": "SAFE",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": true,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "disable_visual_effects",
+      "name": "Disable Visual Effects",
+      "category": "Windows Performance",
+      "description": "Disable animations and transparency for FPS boost",
+      "explanation": "Reduces CPU/GPU load by disabling unnecessary visual effects like animations",
+      "risk_level": "SAFE",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": true,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "high_performance_power",
+      "name": "High Performance Power Plan",
+      "category": "Power Management",
+      "description": "Set power plan to High Performance",
+      "explanation": "Ensures CPU maintains maximum clock speed for consistent performance",
+      "risk_level": "SAFE",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": true,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "disable_background_apps",
+      "name": "Disable Background Apps",
+      "category": "Windows Performance",
+      "description": "Reduce background application resource usage",
+      "explanation": "Frees up CPU/RAM by limiting background app execution",
+      "risk_level": "LOW_RISK",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": true,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "disable_mouse_accel",
+      "name": "Disable Mouse Acceleration",
+      "category": "Input Latency",
+      "description": "Remove mouse acceleration for consistent aim",
+      "explanation": "Provides consistent mouse movement for better gaming control",
+      "risk_level": "SAFE",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": true,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "disable_usb_suspend",
+      "name": "Disable USB Selective Suspend",
+      "category": "Input Latency",
+      "description": "Prevent USB devices from disconnecting",
+      "explanation": "Ensures mouse and keyboard remain connected and responsive",
+      "risk_level": "SAFE",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": true,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "disable_fullscreen_opt",
+      "name": "Disable Fullscreen Optimizations",
+      "category": "Gaming",
+      "description": "Disable fullscreen optimizations that may reduce latency",
+      "explanation": "Can reduce input lag on some systems by bypassing optimization layer",
+      "risk_level": "LOW_RISK",
+      "requires_reboot": false,
+      "reversible": true,
+      "default_enabled": false,
+      "compatibility": ["Windows 10", "Windows 11"]
+    },
+    {
+      "id": "optimize_network",
+      "name": "Optimize Network Stack",
+      "category": "Networking",
+      "description": "Optimize TCP/IP for lower latency",
+      "explanation": "Reduces network latency for online gaming by tuning TCP parameters",
+      "risk_level": "MEDIUM_RISK",
+      "requires_reboot": true,
+      "reversible": true,
+      "default_enabled": false,
+      "compatibility": ["Windows 10", "Windows 11"]
+    }
+  ]
+}
